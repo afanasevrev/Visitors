@@ -19,7 +19,7 @@ import org.opencv.objdetect.CascadeClassifier;
 
 /**
  *
- * @author rewoly
+ * @author afanasevrev
  */
 public class Visitors extends Application{
     static {
