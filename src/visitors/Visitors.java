@@ -56,6 +56,7 @@ public class Visitors extends Application{
         }
         CvUtilsFX.showImage(img, "Результат");
         img.release();
-        System.out.println(faces.toList().size());
+        //Выдача количества лиц по фото
+        System.out.println("Количество лиц = " + faces.toList().size());
     }
 }
