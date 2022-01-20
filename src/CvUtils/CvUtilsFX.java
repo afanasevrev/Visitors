@@ -23,7 +23,7 @@ import org.opencv.imgproc.Imgproc;
  * @author rewoly
  */
 public class CvUtilsFX {
-    //public static final Scalar COLOR_WHITE = colorRGB(255, 255, 255);
+    
     public static Scalar colorRGB(javafx.scene.paint.Color c) {
         return new Scalar((double) Math.round(c.getBlue() * 255), 
                           (double) Math.round(c.getGreen() * 255),
